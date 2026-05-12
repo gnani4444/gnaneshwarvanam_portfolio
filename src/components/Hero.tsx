@@ -121,13 +121,13 @@ export default function Hero() {
         <div className="text-xl md:text-3xl text-slate-400 font-light mb-6 h-12 flex items-center justify-center">
           <TypeAnimation
             sequence={[
-              "Senior Data Scientist",
+              "Senior Data Scientist - AI",
               2000,
               "GenAI & LLM Engineer",
               2000,
-              "MLOps Practitioner",
+              "Forward Deployed AI Engineer",
               2000,
-              "AI Product Builder",
+              "AI Architect",
               2000,
             ]}
             wrapper="span"
@@ -139,10 +139,11 @@ export default function Hero() {
 
         {/* Description */}
         <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed">
-          6.5+ years building{" "}
-          <span className="text-secondary">production AI/ML systems</span>,
-          GenAI agents, and LLM pipelines that deliver measurable business
-          impact and a <span className="text-secondary">Claude Certified Architect</span>.
+          7 years building{" "}
+          <span className="text-secondary">production AI/ML, GenAI, and AI Agent solutions</span>{" "}
+          delivering measurable business impact across pharma, healthcare, and enterprise environments.{" "}
+          Full-stack AI engineer (Next.js · TypeScript · FastAPI · Python).{" "}
+          <span className="text-secondary">Claude Certified Architect</span>.
         </p>
 
         {/* CTAs */}
@@ -166,7 +167,7 @@ export default function Hero() {
         {/* Stats row */}
         <div className="mt-20 flex flex-wrap items-center justify-center gap-8 md:gap-16">
           {[
-            { value: "6.5+", label: "Years Experience" },
+            { value: "7", label: "Years Experience" },
             { value: "15+", label: "Models Deployed" },
             { value: "$10M+", label: "Business Impact" },
             { value: "10K+", label: "Manual Hours Saved" },

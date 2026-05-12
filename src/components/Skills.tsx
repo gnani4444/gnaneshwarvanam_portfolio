@@ -12,9 +12,20 @@ const skillCategories = [
     color: "#2997ff",
     gradient: "linear-gradient(90deg,#2997ff,#74c2ff)",
     skills: [
-      { name: "Python",         score: 95 },
-      { name: "SQL / SparkSQL", score: 91 },
-      { name: "PySpark",        score: 79 },
+      { name: "Python",                  score: 95 },
+      { name: "SQL / SparkSQL",          score: 91 },
+      { name: "PySpark",                 score: 79 },
+      { name: "TypeScript / JavaScript", score: 82 },
+    ],
+  },
+  {
+    category: "Frontend",
+    color: "#64d2ff",
+    gradient: "linear-gradient(90deg,#64d2ff,#a8e6ff)",
+    skills: [
+      { name: "Next.js",     score: 85 },
+      { name: "React 19",    score: 83 },
+      { name: "TailwindCSS", score: 82 },
     ],
   },
   {
@@ -46,6 +57,16 @@ const skillCategories = [
       { name: "MLflow · Azure DevOps · CI/CD", score: 84 },
       { name: "Model Monitoring & Retraining", score: 83 },
       { name: "Data Pipeline Automation",      score: 87 },
+    ],
+  },
+  {
+    category: "Backend & Infra",
+    color: "#ff6584",
+    gradient: "linear-gradient(90deg,#ff6584,#ff9aaf)",
+    skills: [
+      { name: "FastAPI · Node.js · REST",  score: 85 },
+      { name: "Supabase (Postgres + RLS)", score: 78 },
+      { name: "AWS",                       score: 80 },
     ],
   },
 ];
@@ -419,6 +440,9 @@ export default function Skills() {
                   { name: "Docker", tier: 2 }, { name: "Azure ML", tier: 2 },
                   { name: "NumPy", tier: 1 }, { name: "FAISS", tier: 1 },
                   { name: "Jupyter", tier: 1 }, { name: "BeautifulSoup", tier: 2 },
+                  { name: "TypeScript", tier: 1 }, { name: "Node.js", tier: 1 },
+                  { name: "Supabase", tier: 1 }, { name: "AWS", tier: 2 },
+                  { name: "Next.js", tier: 1 }, { name: "React", tier: 1 },
                 ].map((tool) => (
                   <span key={tool.name}
                     className="px-2.5 py-1 text-xs font-mono rounded-lg transition-all hover:scale-105 cursor-default"

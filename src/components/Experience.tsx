@@ -4,58 +4,71 @@ import { useInView } from "react-intersection-observer";
 
 const experiences = [
   {
-    role: "Senior Data Scientist",
-    company: "",
-    period: "2022 – Present",
+    role: "Senior AI Engineer / Forward Deployed",
+    company: "Google",
+    period: "April 2025 – Present",
     type: "Full-time",
     highlights: [
       {
         title: "GenAI Data Quality Agent",
-        desc: "Built a Gemini 2.5 Pro-based LLM agent for structured 10K+ campaign data extraction. 90% accuracy, saving 10,000+ manual hours annually.",
-        tags: ["Gemini 2.5 Pro", "Multi-turn Agents", "Agentic Loop", "FastAPI"],
+        desc: "Scoped, designed, and productionised a multi-turn Gemini 2.5 Pro agentic system extracting structured fields from 10,000+ unstructured promotional campaign texts. Hit 92% field-level accuracy with 2% validation errors using a hand-labelled eval set, a two-layer validator with self-correction, tool calls, and retry loop — automating ~10,000 analyst hours annually.",
+        tags: ["Gemini 2.5 Pro", "Multi-turn Agents", "Validator + Self-Correction", "Retry Loop", "FastAPI", "LangChain"],
       },
       {
-        title: "Dynamic Pricing Model",
-        desc: "End-to-end LightGBM regression model for phone pricing optimisation, delivering $10M+ in savings over 6 campaigns.",
-        tags: ["LightGBM", "Regression", "Pricing Strategy"],
-      },
-      {
-        title: "Generative AI & Domain-Specific LLMs",
-        desc: "Fine-tuned domain-specific LLMs for answering specialised business and technical queries with high precision.",
-        tags: ["LLM Fine-Tuning", "LoRA", "QLoRA", "RAG", "Vector Databases"],
-      },
-      {
-        title: "Churn Prediction Model",
-        desc: "Built B2B churn prediction pipeline with 80% precision, identifying key churn drivers and enabling proactive retention strategies.",
-        tags: ["XGBoost", "Feature Engineering", "Cohort Analysis"],
+        title: "Pixel Dynamic Pricing Engine",
+        desc: "Led end-to-end build of a LightGBM regression and constrained-optimisation engine on EMEA market signals. Shipped an interactive dashboard for analysts to visualise forecasts, adjust constraints, and re-run optimisation on demand, replacing week-long feedback cycles — delivering 90% forecast accuracy and $10M incremental profit in 6 months.",
+        tags: ["LightGBM", "Regression", "Constrained Optimisation", "Interactive Dashboard", "PySpark", "Azure ML", "MLflow"],
       },
     ],
   },
   {
-    role: "Data Scientist",
-    company: "",
-    period: "2019 – 2022",
+    role: "Senior AI Engineer / Forward Deployed",
+    company: "Meta",
+    period: "August 2022 – March 2025",
     type: "Full-time",
     highlights: [
       {
-        title: "Predictive Healthcare Risk Modelling",
-        desc: "Developed a predictive model to identify patients at high risk of unplanned inpatient hospital admissions within six months, enabling proactive intervention and care planning — generating $15M in savings within one year.",
-        tags: ["Survival Analysis", "XGBoost", "SHAP", "Healthcare"],
+        title: "Fine-Tuned LLM + RAG for Sales Analytics",
+        desc: "Owned discovery, scoping, and production deployment of a domain-specific RAG system backed by a fine-tuned LLM (LoRA / QLoRA). Built an automated eval harness scoring answers against a labelled golden dataset. Hit 95% answer accuracy and reduced analyst effort by 40%.",
+        tags: ["LLM Fine-Tuning", "LoRA", "QLoRA", "RAG", "HuggingFace", "LangChain", "FAISS", "FastAPI"],
       },
       {
-        title: "Enterprise Reporting Automation",
-        desc: "Scaled end-to-end reporting automation using Python, SQL and Google Sheets APIs, reducing manual effort significantly and saving $15K annually.",
-        tags: ["Python", "SQL", "Google Sheets API", "Automation"],
+        title: "Customer Churn Intelligence",
+        desc: "Built an XGBoost churn prediction model with 80% precision, identifying key churn drivers with SHAP-based explainability. Monitored production drift and enabled 95% retention of high-priority B2B customers, protecting $10M+ in annual revenue.",
+        tags: ["XGBoost", "SHAP", "Feature Engineering", "Drift Monitoring", "Cohort Analysis"],
+      },
+      {
+        title: "AI Fraud Detection",
+        desc: "Engineered supervised risk-scoring models combining account-compromise signals and free-tier behavioural patterns. Achieved 92% precision and mitigated ~$4M in potential revenue loss.",
+        tags: ["Supervised Learning", "Risk Scoring", "Fraud Detection", "Behavioural Features"],
+      },
+    ],
+  },
+  {
+    role: "Data Scientist / AI Engineer",
+    company: "Humana",
+    period: "June 2019 – August 2022",
+    type: "Full-time",
+    highlights: [
+      {
+        title: "Hospitalisation Risk Prediction",
+        desc: "Developed a predictive model to identify patients at high risk of unplanned inpatient hospital admissions, enabling proactive intervention and care planning — improving precision by 20% and generating $15M in savings.",
+        tags: ["LightGBM", "Neural Networks", "Survival Analysis", "XGBoost", "SHAP", "Healthcare"],
+      },
+      {
+        title: "Cohort Analysis & Drug Adoption",
+        desc: "Led a 5-member data science team using clustering and predictive modelling to boost drug adoption by 5%. Applied Shapley values for explainability, driving stakeholder confidence in model decisions.",
+        tags: ["Clustering", "Predictive Modelling", "SHAP", "Team Lead", "Cohort Analysis"],
+      },
+      {
+        title: "NLP & Admission Prediction",
+        desc: "Applied BERT vectorisation, PCA, and cosine similarity for patient cohort analysis. Built and deployed ML models predicting inpatient admissions with 3% precision improvement.",
+        tags: ["BERT", "NLP", "PCA", "Cosine Similarity", "Predictive Modelling"],
       },
       {
         title: "Model Productionisation & MLOps",
         desc: "Productionised multiple predictive models with robust data pipelines, monitoring, and retraining workflows on Azure.",
         tags: ["MLflow", "Azure DevOps", "CI/CD", "Docker"],
-      },
-      {
-        title: "Analytics & ML Strategy Roadmap",
-        desc: "Conducted a comprehensive assessment of existing products, defining a 3-year analytics and machine learning roadmap.",
-        tags: ["Strategy", "Stakeholder Mgmt", "EDA", "Tableau"],
       },
     ],
   },

@@ -77,6 +77,29 @@ const projects = [
     featured: false,
   },
   {
+    title: "Hackathon — Audience Builder",
+    subtitle: "Fractal Internal Hackathon · 1st Place",
+    description:
+      "Built an Audience Builder tool that applies ML to identify the right customer and right product for upsell based on existing product usage patterns, achieving 85% precision. Surfaces productivity metrics and audience segments to drive data-backed commercial decisions. Presented to Chief Practice Officer at Fractal AI.",
+    longDesc:
+      "End-to-end ML pipeline: ingests existing product usage data, applies clustering and classification to surface customer-product upsell pairs, and visualises audience segments and productivity metrics in AWS QuickSight. SageMaker pipeline handles model training and serving. Presented to Chief Practice Officer at Fractal internal hackathon.",
+    tags: ["AWS QuickSight", "SageMaker", "ML", "Upsell Analytics", "Audience Segmentation"],
+    gradient: "from-yellow-500/20 to-orange-400/20",
+    accentColor: "#FF9F0A",
+    icon: "🏆",
+    features: [
+      "ML-powered customer + product matching for upsell",
+      "Productivity metrics surfaced for commercial teams",
+      "Audience segmentation by product usage patterns",
+      "Presented directly to Chief Practice Officer",
+    ],
+    link: null,
+    github: null,
+    badge: "🥇 1st Place",
+    featured: false,
+    previewBlocked: false,
+  },
+  {
     title: "Agentic Job Discovery Engine",
     subtitle: "Autonomous Career Page Scraper",
     description:

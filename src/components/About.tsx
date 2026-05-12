@@ -8,7 +8,7 @@ const highlights = [
   { icon: "🎓", label: "IIT Bhubaneswar", sub: "B.Tech" },
   { icon: "📍", label: "London, UK", sub: "Open to Hybrid / Remote" },
   { icon: "🏆", label: "Claude Certified", sub: "Architect · Anthropic 2026" },
-  { icon: "⚡", label: "6.5+ Years", sub: "Production AI/ML Systems" },
+  { icon: "⚡", label: "7 Years", sub: "Production AI/ML Systems" },
 ];
 
 const stats = [
@@ -43,15 +43,15 @@ export default function About() {
           >
             <p className="text-slate-300 text-lg leading-relaxed">
               Senior Data Scientist with{" "}
-              <span className="text-secondary font-semibold">6.5+ years</span>{" "}
-              building production AI/ML systems that generate measurable business impact —
+              <span className="text-secondary font-semibold">7 years</span>{" "}
+              building production AI/ML systems and deploying production-grade ML, GenAI, and LLM solutions across pharma, healthcare, and enterprise environments —
               from{" "}
               <span className="text-secondary font-semibold">$10M+ in delivered savings</span>{" "}
               to 10,000+ manual hours automated annually.
             </p>
             <p className="text-slate-400 leading-relaxed">
               My stack:{" "}
-              <span className="text-primary font-medium">Python · PyTorch · LangChain · FastAPI · Azure</span>.
+              <span className="text-primary font-medium">Python · TypeScript · PyTorch · LangChain · FastAPI · Next.js · Azure</span>.
               I own the full pipeline — feature engineering, model training, REST API deployment,
               monitoring, and automated retraining.
             </p>
@@ -111,9 +111,9 @@ export default function About() {
               </p>
               <div className="flex flex-wrap gap-2">
                 {[
-                  "Python", "PyTorch", "TensorFlow", "LangChain", "FastAPI",
-                  "MLflow", "Azure", "PySpark", "SQL", "Docker",
-                  "Gemini", "Claude API", "OpenAI", "HuggingFace", "FAISS",
+                  "Python", "TypeScript", "PyTorch", "TensorFlow", "LangChain", "FastAPI",
+                  "Next.js", "MLflow", "Azure", "AWS", "PySpark", "SQL", "Docker",
+                  "Gemini", "Claude API", "OpenAI", "HuggingFace", "FAISS", "Node.js", "Supabase",
                 ].map((tech) => (
                   <span
                     key={tech}

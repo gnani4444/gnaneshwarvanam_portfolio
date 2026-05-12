@@ -280,6 +280,42 @@ export default function Certifications() {
             ))}
           </div>
         </div>
+
+        {/* ===== AWARDS & RECOGNITION ===== */}
+        <div className="mt-16">
+          <h3 className="text-sm font-mono text-slate-500 uppercase tracking-widest mb-6">
+            Awards &amp; Recognition
+          </h3>
+          <div className="grid sm:grid-cols-3 gap-4">
+            {[
+              {
+                icon: "🏆",
+                title: "Fractal Client Champion",
+                body: "Recognised by Fractal AI for outstanding client delivery and measurable business impact.",
+              },
+              {
+                icon: "⭐",
+                title: "Multiple Kaizen Awards",
+                body: "Awarded for continuous improvement and process excellence at Fractal AI.",
+              },
+              {
+                icon: "🥇",
+                title: "Hackathon 1st Place",
+                body: "Built Audience Builder tool presented to Chief Practice Officer at Fractal AI. Used AWS QuickSight + SageMaker to surface upsell opportunities via ML.",
+              },
+            ].map((award, i) => (
+              <div
+                key={award.title}
+                className={`p-5 rounded-xl bg-dark-card border border-dark-border hover:border-primary/30 transition-all duration-500 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
+                style={{ transitionDelay: `${i * 80}ms` }}
+              >
+                <div className="text-2xl mb-3">{award.icon}</div>
+                <div className="text-sm font-bold text-white mb-2">{award.title}</div>
+                <div className="text-xs text-slate-400 leading-relaxed">{award.body}</div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
