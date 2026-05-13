@@ -11,8 +11,8 @@ const experiences = [
     highlights: [
       {
         title: "GenAI Data Quality Agent",
-        desc: "Scoped, designed, and productionised a multi-turn Gemini 2.5 Pro agentic system extracting structured fields from 10,000+ unstructured promotional campaign texts. Hit 92% field-level accuracy with 2% validation errors using a hand-labelled eval set, a two-layer validator with self-correction, tool calls, and retry loop — automating ~10,000 analyst hours annually.",
-        tags: ["Gemini 2.5 Pro", "Multi-turn Agents", "Validator + Self-Correction", "Retry Loop", "FastAPI", "LangChain"],
+        desc: "Scoped, designed, and productionised a multi-turn Gemini 3 agentic system extracting structured fields from 10,000+ unstructured promotional campaign texts. Hit 92% field-level accuracy with 2% validation errors using a hand-labelled eval set, a two-layer validator with self-correction, tool calls, and retry loop — automating ~10,000 analyst hours annually.",
+        tags: ["Gemini 3", "Multi-turn Agents", "Validator + Self-Correction", "Retry Loop", "FastAPI", "LangChain"],
       },
       {
         title: "Pixel Dynamic Pricing Engine",
